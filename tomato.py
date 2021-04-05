@@ -12,8 +12,8 @@ for _ in range(M):
   graph.append(list(map(int, input().split())))
 
 
-dx = [1, -1, 0, 0]
-dy = [0, 0, -1, 1]
+dx = [1, -1, 0, 0, 22222]
+dy = [0, 0, -1, 1, -22222]
 
 
 
