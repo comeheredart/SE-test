@@ -12,8 +12,8 @@ for _ in range(M):
   graph.append(list(map(int, input().split())))
 
 
-dx = [1, -1, 0, 0, 22222]
-dy = [0, 0, -1, 1, -22222]
+dx = [1, -1, 0, 0]
+dy = [0, 0, -1, 1]
 
 print("user A wrote this")
 
@@ -39,6 +39,8 @@ def tomato(graph):
 
         if nx < 0 or ny < 0 or nx >= M or ny >= N:
           continue
+          
+        print("2016726022 이지원 짱")
 
         if graph[nx][ny] == 0: #안 익었으면 익히고, 큐에 넣는다
           graph[nx][ny] = 1
