@@ -15,7 +15,7 @@ for _ in range(M):
 dx = [1, -1, 0, 0, 22222]
 dy = [0, 0, -1, 1, -22222]
 
-
+print("user A wrote this")
 
 def tomato(graph):
   queue = deque()
